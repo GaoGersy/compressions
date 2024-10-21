@@ -6,13 +6,13 @@
 /**
  * 压缩示例，目录下的文件全部压缩，不需要过滤
  */
-Compressions.zip("src/test/resources/test.txt", "target/test.zip");
+Compressions.compress("src/test/resources/test.txt", "target/test.zip");
 
 
 /**
  * 解压示例，全部解压，不需要过滤
  */
-Compressions.zip("src/test/resources", "target/test.zip");
+Compressions.uncompress("src/test/resources", "target/test.zip");
 
 ```
 
